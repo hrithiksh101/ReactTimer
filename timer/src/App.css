@@ -1,0 +1,120 @@
+
+
+/* These css property are used to make applicaiton look better */
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(./vendor/1-background.jpg);
+}
+
+.timer-nav{
+
+  color : white ;
+  text-align: center;
+  font-size: 3.8rem;
+  font-family: cursive;
+  
+}
+
+.options{
+  display: flex ;
+  color : white ;
+  text-align: center;
+  justify-content: center;
+}
+
+.options li {
+  
+  text-decoration: none;
+
+}
+
+.options ul a{
+  color : white ;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 2rem;
+  margin-left: 10px;
+  margin-right : 10px ;
+   border : 1px white solid ;   
+   
+}
+
+.options ul a:hover{
+    
+  border : 1px solid #39ff14 ;
+  color : #39ff14 ;
+  box-shadow: 10px 10px 100px 1px #39ff14;
+}
+.options ul a:nth-child(2):hover{
+    
+  border : 1px solid yellow ;
+  color : yellow ;
+  box-shadow: 10px 10px 100px 1px yellow;
+}
+
+/* Css Files for the buttons */
+
+.button-line{
+
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.single-button{
+  font-size : 1.5rem ;
+  color : black ;
+  padding : 25px ;
+  font-style: oblique;
+  margin-left : 10px ;
+  margin-right : 10px ;
+}
+
+.Stopwatch{
+
+  margin-top: 10vh;
+  color :white ;
+  font-size: 8rem;
+  text-align: center;
+}
+
+.Stopwatch button{
+  font-size: 2rem;
+  padding : 10px ;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.Stopwatch button:hover{
+
+  box-shadow: 10px 10px 100px 1px whitesmoke;  
+  
+}
+
+.history-table{
+  color : white ;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top : 80px ;
+  border : white 1px solid ;
+  
+}
+
+.history-table td  {
+  padding : 20px ;
+  font-size: 2.5rem;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.history-table th{
+  padding: 20px;
+  font-size : 3rem ; 
+  border-bottom : white 1px solid ; 
+  border-right : white 1px solid ; 
+}
